@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+
+  app_react:
+    build: 
+      context: .
+    container_name: app-react
+    volumes:
+      - .:/usr/src/app-react
+    tty: true
+    ports:
+      - "3334:3334"
+    networks:
+      - react-network
+
+networks:
+  react-network:
+    driver: bridge
