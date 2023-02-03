@@ -21,10 +21,10 @@ export function Post() {
             <div className={styles.content}>
                 <p>Lorem ipsum 👋</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe exercitationem, ipsam laudantium, deleniti tempora ullam ducimus enim iste quae magni magnam in similique non consequatur quod asperiores voluptates, ipsum corporis.</p>
-                <p><a href=''>lorem.ipsum/link</a></p>
+                <p><a href=''>👉 lorem.ipsum/link</a></p>
                 <p>
+                    <a href=''>#ipsum</a>{' '}
                     <a href=''>#lorem</a>
-                    <a href=''>#ipsum</a>
                 </p>
             </div>
         </article>
